@@ -29,6 +29,7 @@ export default {
   fbReadData({commit}) {
     let userId = firebaseAuth.currentUser.uid
     let userTasks = firebaseDb.ref('tasks/' + userId)
+    console.log('userTasks',userTasks)
 
     userTasks.on('child_added', snapshot => {
       let task = snapshot.val()

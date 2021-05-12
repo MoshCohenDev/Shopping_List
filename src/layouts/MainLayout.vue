@@ -3,7 +3,7 @@
     <q-header elevated>
       <q-toolbar>
         <q-toolbar-title class="absolute-center">
-          Todo-List
+          Shopping-List
         </q-toolbar-title>
         <q-btn
           flat
